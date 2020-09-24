@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_burc_rehberi/burc_detay.dart';
 import 'package:flutter_burc_rehberi/burc_liste.dart';
+import 'package:flutter_burc_rehberi/palette_generator.dart';
 
-void main() => runApp(MyApp());
+//void main() => runApp(MyApp());
+void main() => runApp(PaletteGeneratorTestView());
 
 class MyApp extends StatelessWidget {
   @override
